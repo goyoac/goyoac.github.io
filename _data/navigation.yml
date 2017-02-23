@@ -1,12 +1,12 @@
 # main links links
 main:
-  - title: "About"
+  - title: "Sobre mi"
     url: /about/
-  - title: "Magazines"
+  - title: "Revistas"
     url: /magazines/
-  - title: "Posts by year"
+  - title: "Posts por año"
     url: /year-archive/
-  - title: "Photography"
+  - title: "Fotografía"
     url: http://ambrosiophoto.com
-  - title: "Terms &amp; Privacy Policy"
+  - title: "Política de privacidad"
     url: /terms/
