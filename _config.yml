@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Computing as a way of life"
+locale                   : "es"
+title                    : "Computación como Vocación"
 title_separator          : "-"
 name                     : &name "Goyo Ambrosio"
 description              : &description "Scientific Computing, Data Science, Smart City, IoT, Big Data, Robotics, STEM, IT, Education, Innovation and more"
