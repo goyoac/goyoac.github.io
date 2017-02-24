@@ -6,7 +6,7 @@ categories:
 tags: contenidos digitales, economía digital, hub, málaga, polo
 ---
 
-![Obra del Polo de Contenidos Digitales](/assets/images/AAAA/MM/obra-polo){:
+![Obra del Polo de Contenidos Digitales](/assets/images/2016/01/obra-polo.jpg){:
 .align-left} Después de varios meses trabajando en la obra del Polo de
 Contenidos Digitales que tiene lugar en Tabacalera, hemos recibido la visita del
 Alcalde para conocer el estado de las obras cuyo presupuesto asciende a 2,9
