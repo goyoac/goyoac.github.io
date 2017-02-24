@@ -6,7 +6,7 @@ categories:
 tags: contenidos digitales, economía digital, hub, málaga, polo
 ---
 
-![Primer Polo Digital](/assets/images/2014/10/primer-polo.jpg){: .align-left}
+![Primer Polo Digital](/assets/images/2014/10/primer-polo-small.jpg){: .align-left}
 Con fecha de 15 de febrero de 2013, el Consejo de Ministros aprobó
 la
 [“Agenda Digital para España”](http://www.agendadigital.gob.es/Paginas/Index.aspx),

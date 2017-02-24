@@ -89,7 +89,7 @@ Citysense.
 
 ## Málaga Citysense
 
-![App City Sense](/assets/images/2014/02/app-city-sense.png){:
+![App City Sense](/assets/images/2014/02/app-city-sense-small.png){:
 .align-right}Málaga Citysense se define como un proyecto de participación ciudadana en la
 ciudad de Málaga que tiene como objetivo generar nuevas experiencias
 colaborativas de los usuarios con la ciudad. Permite al usuario actuar como
