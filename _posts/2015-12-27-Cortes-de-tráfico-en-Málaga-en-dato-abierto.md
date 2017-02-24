@@ -1,5 +1,5 @@
 ---
-title: "Consultar como datos aboertos los cortes de tráfico en Málaga"
+title: "Consultar como datos abiertos los cortes de tráfico en Málaga"
 related : true
 categories:
   - Utilidad
