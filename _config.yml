@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "es"
-title                    : "Computación por Vocación"
+title                    : "Informática y Computación"
 title_separator          : "-"
 name                     : &name "Goyo Ambrosio"
 description              : &description "Computación, Computación ciéntifica, Ingeniería en informática, Innovación, Emprendimiento, STEM, Robótica, Análisis de Datos, Big Data, Smart City, Internet de las Cosas, IoT, Formación, Cosultoría y más"
