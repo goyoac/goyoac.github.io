@@ -2,27 +2,28 @@
 permalink: /about/
 title: "Sobre mi"
 excerpt: "Información sobre Goyo Ambrosio"
-modified: 2017-02-12
+modified: 2018-01-01
 ---
 
-Gregorio "Goyo" Ambrosio works as CTO
-of
-[Málaga Digital Content Hub](http://www.promalaga.es/polo-de-contenidos-digitales/).
-He also is head
-of [Promálaga Urbanlab](http://www.promalaga.es/promalaga-urbanlab-2/), the
-innovation space of [Malaga City Council](http://www.malaga.eu/) acting as an
-urban laboratory for new urban technologies like smart city, internet of things,
-data science, etc. Gregorio received BCS and MSc degree in Computer Science from
-the [University of Malaga](http://www.uma.es/) and a Master in Business
-Administration from [ESESA](https://www.esesa.eu/). He has over 25 years of
-professional experience in the ICT field in public administration. Over the past
-five years he has worked in the field of innovation involved in the most
-innovative projects of the city of Málaga mainly related to smart city, digital
-content industry, entrepreneurship and so on. He also has experience as a
-researcher at the University of Málaga and has a solid background in scientific
-computing. He's a skilled developer in Matlab, C++ and Python. Gregorio also has
-experience as an entrepreneur, having led two business projects. One in the
-field of remote sensing and other in the field of computer forensics. Currently
-his areas of interest are data science, big data, machine learning, smart
-cities, internet of things, computer forensic, computational perception and
-innovation.
+Gregorio Ambrosio trabaja actualmente como Analista en el [Centro Municipal de
+Informática](http://cemi.malaga.eu/) (CEMI) del [Ayuntamiento de
+Málaga](http://www.malaga.eu/). Durante los últimos años ha trabajado como CTO
+del Polo de Contenidos Digitales y como responsable de Promálaga UrbanLab, ambos
+espacios de innovación, emprendimiento y laboratorio urbano en tecnologías de
+ciudad inteligente, internet de las cosas y contenidos digitales. Gregorio es
+Licenciado en Informática (1992) por la [Universidad de
+Málaga](http://www.uma.es/) y MBA por [ESESA](https://www.esesa.eu/) (Escuela
+Superior de Estudios de Empresa) y tiene una experiencia profesional de más de
+25 años en el sector TI de la administración local, principalmente en el área de
+sistemas. También tiene experiencia como investigador en la Universidad de
+Málaga donde ha llevado a cabo su actividad en el área de la visión por
+computador y la robótica adquiriendo una sólida base en el desarrollo de
+software de caracter científico técnico principalmente sobre C++, Matlab y
+Python. Como emprendedor ha liderado dos proyectos empresariales, uno en el
+ámbito de la teledetección y el geoanálisis y otro en el ámbito de la
+informática forense, siendo esta última una disciplina que le acompaña en toda
+su carrera profesional. Además ha sido fundador y decano del Colegio de
+Ingenieros en Informática de Andalucía y del Colegio de Ingenieros Técnicos en
+Informática de Andalucía. Actualmente sus intereses académicos y de actividad
+profesional abarcan la ciencia de datos (data science), las tecnologías
+financieras (fintech) y la ciberseguridad.
