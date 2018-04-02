@@ -3,7 +3,7 @@ title: "Protección de datos de Carácter Personal"
 related : true
 categories:
   - Artículo
-tags: protección, datos
+tags:protección,datos
 ---
 
 En una economía basada en el conocimiento donde las nuevas tecnologías avanzan a
