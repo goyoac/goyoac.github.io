@@ -3,7 +3,12 @@ title: "El centro de desarrollo de la industria de los contenidos digitales de l
 related : true
 categories:
   - Noticias
-tags: contenidos digitales, economía digital, hub, málaga, polo
+tags: 
+  - contenidos digitales
+  - economía digital
+  - hub
+  - málaga
+  - polo
 ---
 
 ![Primer Polo Digital](/assets/images/2014/10/primer-polo-small.jpg){: .align-left}

@@ -3,7 +3,9 @@ title: "Nuevas opciones de formación en la Ciencia de las Ciudades"
 related : true
 categories:
   - Noticias
-tags: formación, smart city
+tags: 
+  - formación
+  - smart city
 ---
 
 ![Smart Cities](/assets/images/2014/11/smart_cities.jpg){: .align-left}[The Barlett](http://www.bartlett.ucl.ac.uk/) es la facultad de

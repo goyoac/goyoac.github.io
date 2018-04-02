@@ -3,7 +3,9 @@ title: "Big Data al alcance de las PYMES, de la mano de Watson"
 related : true
 categories:
   - News
-tags: big data, cloud
+tags: 
+  - big data
+  - cloud
 ---
 
 Hemos entrado en la era Big Data. En los próximos años el número de dispositivos

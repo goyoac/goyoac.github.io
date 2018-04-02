@@ -2,8 +2,16 @@
 title: "Málaga tiene un laboratorio urbano en un entorno real"
 related : true
 categories:
-  - Noticia
-tags: app, big data, internet de las cosas, iot, laboratorio urbano, málaga, smart city, urban lab
+  - Noticias
+tags: 
+  - app
+  - big data
+  - internet de las cosas
+  - iot
+  - laboratorio urbano
+  - málaga
+  - smart city
+  - urban lab
 ---
 
 En su carrera para ser una 'smart city', Málaga ha dado un paso más con la

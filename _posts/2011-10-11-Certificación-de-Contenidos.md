@@ -4,7 +4,9 @@ related : true
 categories:
   - Informática Forense
   - Periciales Informáticas
-tags: Forense, Peritaje
+tags: 
+  - forense
+  - peritaje
 ---
 
 La adopción de las nuevas tecnologías en la gestión de la información genera

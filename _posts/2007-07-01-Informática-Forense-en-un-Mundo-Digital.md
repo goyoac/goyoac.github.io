@@ -3,7 +3,9 @@ title: "Informática Forense en un Mundo Digital"
 related : true
 categories:
   - Informática Forense
-tags: forense, ciberseguridad
+tags: 
+  - forense
+  - ciberseguridad
 ---
 
 La utilización generalizada de dispositivos informáticos permite la aplicación

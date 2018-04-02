@@ -3,7 +3,10 @@ title: "Consultar como datos abiertos los cortes de tráfico en Málaga"
 related : true
 categories:
   - Utilidad
-tags: dato abierto, málaga, open data
+tags: 
+  - dato abierto
+  - málaga
+  - open data
 ---
 
 El

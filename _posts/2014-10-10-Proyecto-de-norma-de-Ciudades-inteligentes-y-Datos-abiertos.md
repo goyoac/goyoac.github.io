@@ -2,8 +2,11 @@
 title: "Proyecto de norma de Ciudades inteligentes y Datos abiertos"
 related : true
 categories:
-  - News
-tags: normalización, open data, dato abierto
+  - Noticias
+tags: 
+  - normalización
+  - open data
+  - dato abierto
 ---
 
 ![Open Data](/assets/images/2014/10/opendata.jpg){: .align-left} Esta
