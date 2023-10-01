@@ -5,22 +5,30 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "es"
-title                    : "Informática y Computación"
+locale                   : "en"
+title                    : "Goyo Ambrosio"
 title_separator          : "-"
-name                     : &name "Goyo Ambrosio"
-description              : &description "Computación, Computación ciéntifica, Ingeniería en informática, Innovación, Emprendimiento, STEM, Robótica, Análisis de Datos, Big Data, Smart City, Internet de las Cosas, IoT, Formación, Cosultoría y más"
-url                      : http://goyoambrosio.es # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "GOYO AMBROSIO"
+description              : &description "From bytes to computing and other related stuff"
+url                      : https://goyoambrosio.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "goyoac/goyoac.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "goyoambrosio/goyoambrosio.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : /assets/images/site/four-mailboxes.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -30,24 +38,46 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+    
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  commitMessage          : # "New comment"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "_data/comments/{options.slug}"
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : # "md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : # "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
+  # reCaptcha
+  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+  reCaptcha:
+    enabled: false
+    siteKey: "6LfmhVkUAAAAAFTr2s60vRWJoOxAKWYo6Gz_pV7-"
+    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+    # For more information, https://staticman.net/docs/encryption
+    secret: "ux2aifJFGY1IxoNdHeQeK01wxs6o4qBfbmTh52Sl/C47nr5xEn9KeoagAsyg71rbqEjgcCjiavWuS6JyLF9yVA6jTU5+lYZcEZFQf+LvgkX9z5ukHRA92UdmV9FQ39wrdlD6BWB6EYS1aE/M1xKlrgCvsA06C9gydASHSgTZGs0="
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia
+algolia:
+  application_id         : BNMNFE5GR9 # YOUR_APPLICATION_ID
+  index_name             : goyoambrosio # YOUR_INDEX_NAME
+  search_only_api_key    : 81f88874a3a4c063456aff6a326b7b60 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  files_to_exclude:
+    - _drafts/*
 
 # SEO Related
 google_site_verification : "znWze-SIKCL5WHEfXKHQg0T1ogIXpRAjoDfZ-65B_Qk"
@@ -57,9 +87,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "gambrosio"
+  username               : &twitter "goyoac"
 facebook:
-  username               : &facebook "goyo.ambrosio"
+  username               : &facebook "gregorio.ambrosio.cestero"
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/goyo-site-logo.png" # Open Graph/Twitter default site image
@@ -76,29 +106,31 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-180224-21
+    tracking_id          : UA-180224-20 # Replace this with your ID, or delete
+    anonymize_ip         : true
 
 
 # Site Author
 author:
-  name             : *name
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : /assets/images/goyo-ambrosio.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Apasionado por la Informática y la  Computación"
+  bio              : "Vocational and passionate computer scientist"
   location         : "Málaga, SPAIN"
   email            :
-  uri              : "https://goyoac.github.io"
+  uri              : "https://goyoambrosio.com"
+  home             : "https://goyoambrosio.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : goyoambrosio
+  github           : "goyoambrosio"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : goyoambrosio
+  linkedin         : "goyoambrosio"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -168,6 +200,28 @@ kramdown:
   enable_coderay: false
 
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -182,14 +236,14 @@ timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+ 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -197,7 +251,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+ 
 
 # Archives
 #  Type
@@ -235,23 +289,4 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true # true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+
